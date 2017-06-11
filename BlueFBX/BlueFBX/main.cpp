@@ -1,4 +1,9 @@
+#if WIN32
 #include "fbxsdk.h"
+#else
+#include <fbxsdk.h>
+#endif
+
 #include <vector>
 #include <cassert>
 using namespace std;
